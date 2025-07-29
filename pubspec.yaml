@@ -1,0 +1,50 @@
+name: dimaanos_dental_clinic
+description: A mobile app for Dimaano’s Dental Clinic.
+
+publish_to: 'none' # Remove this line if publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # Calendar
+  table_calendar: ^3.0.9
+
+  # State management
+  provider: ^6.1.2
+
+  # Firebase Dependencies 
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.0
+  cloud_firestore: ^4.17.0
+
+  # Date formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/tooth.png
+    - assets/icon.png
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
